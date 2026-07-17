@@ -248,6 +248,12 @@ ul {
   color: var(--navy);
   font-size: 1.1rem;
 }
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    font-size: 0.75rem;
+}
 
 .logo-text strong {
   color: var(--gold);
@@ -553,6 +559,7 @@ ul {
   box-shadow: var(--shadow-lg);
   object-fit: contain;
   height: auto;
+
 }
 
 .about-img-frame .img-placeholder {
@@ -2113,4 +2120,23 @@ ul {
   .section-title {
     font-size: 1.6rem;
   }
+  .nav-container{
+    height: 80px;
+}
+
+.logo-text {
+    font-size: 0.68rem;
+    line-height: 1.05;
+}
+
+.logo-text strong {
+    display: block;
+}
+.nav-logo {
+  gap: 8px;
+}
+.logo-icon {
+width: 36px;
+height: 36px;
+}
 }
