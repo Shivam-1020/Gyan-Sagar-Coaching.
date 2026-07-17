@@ -252,7 +252,10 @@ ul {
     display: flex;
     flex-direction: column;
     line-height: 1.1;
-    font-size: 0.75rem;
+    /* font-size: 0.75rem; */
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 20px;
 }
 
 .logo-text strong {
@@ -2125,8 +2128,9 @@ ul {
 }
 
 .logo-text {
-    font-size: 0.68rem;
+    /* font-size: 0.68rem; */
     line-height: 1.05;
+    font-size: 22px;
 }
 
 .logo-text strong {
@@ -2138,5 +2142,9 @@ ul {
 .logo-icon {
 width: 36px;
 height: 36px;
+}
+.navbar {
+  padding-bottom: 10px;
+  padding-top: 14px;
 }
 }
