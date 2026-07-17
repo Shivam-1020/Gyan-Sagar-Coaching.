@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XYZ Institute – Premier Coaching for Class 6–12, NEET & JEE</title>
+  <meta name="description" content="XYZ Institute offers expert coaching for Class 6 to 12, NEET, and JEE. Join thousands of successful students." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       Sticky, solid background, highlights active section
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo / Institute Name -->
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon"><i class="fas fa-graduation-cap"></i></span>
+        <span class="logo-text">GYAN SAGAR CAREER <strong>INSTITUTE</strong></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home"         class="nav-link active">Home</a>
+        <a href="#about"        class="nav-link">About</a>
+        <a href="#courses"      class="nav-link">Courses</a>
+        <a href="#faculty"      class="nav-link">Faculty</a>
+        <a href="#results"      class="nav-link">Results</a>
+        <a href="#gallery"      class="nav-link">Gallery</a>
+        <a href="#contact"      class="nav-link">Contact</a>
+        <a href="#contact" class="nav-cta-btn">Enrol Now</a>
+      </nav>
+
+      <!-- Hamburger Menu (Mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       HERO SECTION — Banner Slider
+  ============================================================ -->
+  <section class="hero" id="home">
+    <div class="slider-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="slide active" style="background-image: url('banner1.jpg')">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="admission-badge"><i class="fas fa-star"></i> Admissions Open 2026–27</span>
+          <h1>Build Your Future<br>with <span class="highlight">GYAN SAGAR CAREER  INSTITUTE</span></h1>
+          <p>Expert coaching for Class 6–12 · NEET · JEE . NAVODAYA . SAINIK <br>Small batches · Personal attention · Proven results</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Enquire Now <i class="fas fa-arrow-right"></i></a>
+            <a href="#courses" class="btn btn-outline">View Courses</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide" style="background-image: url('banner2.jpg')">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="admission-badge"><i class="fas fa-star"></i> Admissions Open 2026–27</span>
+          <h1>NEET & JEE<br><span class="highlight">Guaranteed Excellence</span></h1>
+          <p>Comprehensive study material · Mock tests · 1-on-1 doubt sessions</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Enquire Now <i class="fas fa-arrow-right"></i></a>
+            <a href="#courses" class="btn btn-outline">View Courses</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide" style="background-image: url('banner3.jpg')">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="admission-badge"><i class="fas fa-star"></i> Admissions Open 2026–27</span>
+          <h1>Trusted by<br><span class="highlight">Multiple Families</span></h1>
+          <p>Since 2025 · Award-winning faculty · 95%+ board results</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Enquire Now <i class="fas fa-arrow-right"></i></a>
+            <a href="#courses" class="btn btn-outline">View Courses</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide" style="background-image: url('banner4.jpg')">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="admission-badge"><i class="fas fa-star"></i> Admissions Open 2026–27</span>
+          <h1>Shape Your Child's<br><span class="highlight">Bright Tomorrow</span></h1>
+          <p>Foundation · Boards · Competitive · All under one roof</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Enquire Now <i class="fas fa-arrow-right"></i></a>
+            <a href="#courses" class="btn btn-outline">View Courses</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <button class="slider-btn prev" id="sliderPrev" aria-label="Previous slide">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="slider-btn next" id="sliderNext" aria-label="Next slide">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+
+      <!-- Slider Dots -->
+      <div class="slider-dots" id="sliderDots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ANNOUNCEMENT TICKER
+  ============================================================ -->
+  <div class="ticker-wrap">
+    <div class="ticker-label"><i class="fas fa-bell"></i> Notice</div>
+    <div class="ticker-content">
+      <span>🎉 Admissions open for session 2026–27 — Limited seats available!</span>
+      <span>📢 NEET Crash Course starting 1st July — Register Now!</span>
+      <span>🏆 Our 6 students are preparing for Sainik Exam!</span>
+      <span>📚 Free Demo Class every Saturday at 10 AM — Walk in welcome!</span>
+    </div>
+  </div>
+
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about-section section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Who We Are</span>
+        <h2 class="section-title">About GYAN SAGAR CAREER INSTITUTE </h2>
+        <p class="section-sub">Two Years of academic excellence, shaping careers across the region.</p>
+      </div>
+
+      <div class="about-grid">
+
+        <!-- Image Column -->
+        <div class="about-img-col reveal">
+          <div class="about-img-frame">
+            <img src="glr_imgs/Banner.jpg.png" alt="GYANSAGAR CAREER  INSTITUTE CAMPUS" class="about-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <!-- Fallback placeholder -->
+            <div class="img-placeholder" style="display:none">
+              <i class="fas fa-image"></i>
+              <p>about.jpg</p>
+            </div>
+
+            <!-- Floating badge -->
+            <div class="about-badge">
+              <span class="badge-number">2<sup>+</sup></span>
+              <span class="badge-label">Years of<br>Excellence</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text Column -->
+        <div class="about-text-col reveal">
+          <p class="about-intro">
+            Founded in 2025, <strong>GYAN SAGAR CAREER INSTITUTE </strong> has grown to become one of the most trusted names in academic coaching in the Mirganj region. We prepare students for board examinations, competitive entrances (JEE , NEET , SAINIK , NAVODAYA), and lifelong intellectual curiosity.
+          </p>
+
+          <div class="mv-cards">
+            <!-- Mission -->
+            <div class="mv-card">
+              <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+              <div>
+                <h4>Our Mission</h4>
+                <p>To help every students from class 6 - 12 learn with confidence , score better and build a bright future.
+                  <br><br><hr><br>कक्षा 6 से 12 तक के हर छात्र को आत्मविश्वास के साथ सीखने, बेहतर अंक लाने और उज्ज्वल भविष्य बनाने में मदद करना।
+                </p>
+              </div>
+            </div>
+            <!-- Vision -->
+            <div class="mv-card">
+              <div class="mv-icon"><i class="fas fa-eye"></i></div>
+              <div>
+                <h4>Our Vision</h4>
+                <p>To become the most trusted learning partener for students , Inspiring Success , Discipline and Lifelong growth.
+                  <br><br><hr><br>छात्रों की सफलता, अनुशासन और निरंतर विकास को प्रेरित करने वाला सबसे विश्वसनीय शिक्षण संस्थान बनना।
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Key points -->
+          <ul class="about-points">
+            <li><i class="fas fa-check-circle"></i> CBSE & State Board aligned curriculum</li>
+            <li><i class="fas fa-check-circle"></i> Weekly tests with detailed performance reports</li>
+            <li><i class="fas fa-check-circle"></i> Parent-teacher meetings every month</li>
+            <li><i class="fas fa-check-circle"></i> Doubt-clearing sessions 6 days a week</li>
+          </ul>
+
+          <a href="#contact" class="btn btn-primary">Talk to a Counsellor <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       STATISTICS / COUNTER SECTION
+  ============================================================ -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-users"></i></div>
+          <div class="stat-number" data-target="200">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Students Taught</div>
+        </div>
+
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+          <div class="stat-number" data-target="2">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Years of Experience</div>
+        </div>
+
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Students are preparing for SAINIK Exam</div>
+        </div>
+
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Years of Expert Faculty Experience</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COURSES SECTION
+  ============================================================ -->
+  <section class="courses-section section" id="courses">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our Courses</h2>
+        <p class="section-sub">Carefully designed programmes that build strong foundations and drive exam success.</p>
+      </div>
+
+      <div class="courses-grid">
+
+        <!-- Class 6 -->
+        <div class="course-card reveal">
+          <div class="course-icon" style="background: #eef2ff;"><i class="fas fa-book-open" style="color:#4f46e5;"></i></div>
+          <div class="course-badge">Foundation</div>
+          <h3>Class 6</h3>
+          <p>Strong conceptual base in Maths, Science, English &amp; Social Studies aligned to CBSE/State Board.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> All Subjects</li>
+            <li><i class="fas fa-check"></i> Navodaya and Sainik Exam Preperation</li>
+            <li><i class="fas fa-check"></i> Weekly Tests</li>
+            <li><i class="fas fa-check"></i> Doubt Sessions</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Class 7 -->
+        <div class="course-card reveal">
+          <div class="course-icon" style="background: #f0fdf4;"><i class="fas fa-book-open" style="color:#16a34a;"></i></div>
+          <div class="course-badge">Foundation</div>
+          <h3>Class 7</h3>
+          <p>Deepened understanding of core subjects with Olympiad preparation and logical reasoning.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> All Subjects</li>
+            <li><i class="fas fa-check"></i> Olympiad Prep</li>
+            <li><i class="fas fa-check"></i> Activity Learning</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Class 8 -->
+        <div class="course-card reveal">
+          <div class="course-icon" style="background: #fff7ed;"><i class="fas fa-book-open" style="color:#ea580c;"></i></div>
+          <div class="course-badge">Foundation</div>
+          <h3>Class 8</h3>
+          <p>Bridge course preparing students for the rigour of secondary school — critical thinking &amp; problem solving.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> Maths &amp; Science Focus</li>
+            <li><i class="fas fa-check"></i> NTSE Foundation</li>
+            <li><i class="fas fa-check"></i> Monthly Parents Report</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Class 9 -->
+        <div class="course-card reveal">
+          <div class="course-icon" style="background: #fdf2f8;"><i class="fas fa-atom" style="color:#a21caf;"></i></div>
+          <div class="course-badge">Secondary</div>
+          <h3>Class 9</h3>
+          <p>Pre-board foundation covering all CBSE/State subjects with regular assessments and PTM.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> Full CBSE Syllabus</li>
+            <li><i class="fas fa-check"></i> Bi-weekly Tests</li>
+            <li><i class="fas fa-check"></i> Study Material</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Class 10 -->
+        <div class="course-card reveal">
+          <div class="course-icon" style="background: #fffbeb;"><i class="fas fa-star" style="color:#ca8a04;"></i></div>
+          <div class="course-badge">Board</div>
+          <h3>Class 10</h3>
+          <p>Board-focused coaching for 90%+ results. Full syllabus coverage with exam strategy and past paper drills.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> Board Exam Strategy</li>
+            <li><i class="fas fa-check"></i> Previous Year Papers</li>
+            <li><i class="fas fa-check"></i> 1-on-1 Mentoring</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Class 11 Science -->
+        <div class="course-card reveal">
+          <div class="course-icon" style="background: #eff6ff;"><i class="fas fa-flask" style="color:#2563eb;"></i></div>
+          <div class="course-badge">Senior Secondary</div>
+          <h3>Class 11 Science</h3>
+          <p>Physics, Chemistry, Biology and Maths with competitive exam foundation built simultaneously.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> PCM / PCB</li>
+            <li><i class="fas fa-check"></i> JEE / NEET Base</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Class 12 Science -->
+        <div class="course-card reveal">
+          <div class="course-icon" style="background: #ecfdf5;"><i class="fas fa-microscope" style="color:#059669;"></i></div>
+          <div class="course-badge">Senior Secondary</div>
+          <h3>Class 12 Science</h3>
+          <p>Board + entrance aligned coaching to crack boards and competitive exams together in one year.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> Board + Entrance</li>
+            <li><i class="fas fa-check"></i> Mock Boards</li>
+            <li><i class="fas fa-check"></i> Rank Booster Series</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- NAVODAYA -->
+        <div class="course-card reveal featured-course">
+          <div class="course-icon" style="background: #fff0f0;"><i class="fas fa-heartbeat" style="color:#dc2626;"></i></div>
+          <div class="course-badge popular">Most Popular</div>
+          <h3>NAVODAYA Preparation</h3>
+          <p>Expert guidance for Javahar Navodaya Vidyalaya.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> Previous year Question Papers</li>
+            <li><i class="fas fa-check"></i> Navodaya Focused Study Plan</li>
+            <li><i class="fas fa-check"></i> Reasoning based Aptitude Tests</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <!-- Sainik -->
+        <div class="course-card reveal featured-course">
+          <div class="course-icon" style="background: #fff0f0;"><i class="fas fa-heartbeat" style="color:#dc2626;"></i></div>
+          <div class="course-badge popular">Most Popular</div>
+          <h3>SAINIK SCHOOL ENTRANCE Preparation</h3>
+          <p>Comperhensive Preperation for the All India Schools Entrance Examination (AISSEE).</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i>AISSEE Focused study plan</li>
+            <li><i class="fas fa-check"></i> Mathematics and Intelligence </li>
+            <li><i class="fas fa-check"></i> Full-length Mock Tests</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <!-- NEET -->
+        <div class="course-card reveal featured-course">
+          <div class="course-icon" style="background: #fff0f0;"><i class="fas fa-heartbeat" style="color:#dc2626;"></i></div>
+          <div class="course-badge popular">Most Popular</div>
+          <h3>NEET Preparation</h3>
+          <p>Comprehensive Biology, Physics &amp; Chemistry coaching by ex-AIIMS and top medical faculty.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> 720-Score Strategy</li>
+            <li><i class="fas fa-check"></i> 5000+ Practice Questions</li>
+            <li><i class="fas fa-check"></i> Full-length Mock Tests</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- JEE -->
+        <div class="course-card reveal featured-course">
+          <div class="course-icon" style="background: #f5f3ff;"><i class="fas fa-cogs" style="color:#7c3aed;"></i></div>
+          <div class="course-badge popular">Most Popular</div>
+          <h3>JEE Preparation</h3>
+          <p>Advanced problem solving for JEE Main &amp; Advanced with IIT-experienced faculty and intensive batches.</p>
+          <ul class="course-features">
+            <li><i class="fas fa-check"></i> JEE Main + Advanced</li>
+            <li><i class="fas fa-check"></i> Chapter-wise Tests</li>
+            <li><i class="fas fa-check"></i> Rank Predictor</li>
+          </ul>
+          <a href="#contact" class="course-btn">Enquire <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FACULTY SECTION
+  ============================================================ -->
+  <section class="faculty-section section" id="faculty">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Meet the Experts</span>
+        <h2 class="section-title">Our Faculty</h2>
+        <p class="section-sub">Experienced educators dedicated to unlocking each student's potential.</p>
+      </div>
+
+      <div class="faculty-grid">
+
+        <!-- Faculty Card 1 -->
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrap">
+            <img src="faculty1.jpg" alt="Faculty" class="faculty-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="img-placeholder" style="display:none"><i class="fas fa-user"></i><p>faculty1.jpg</p></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Mr. Aman Kumar</h3>
+            <span class="faculty-subject">Physics</span>
+            <p class="faculty-qual"><i class="fas fa-graduation-cap"></i> B.Sc., 2 yrs experience</p>
+          </div>
+        </div>
+
+        <!-- Faculty Card 2 -->
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrap">
+            <img src="Teacher.jpeg" alt="Faculty" class="faculty-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="img-placeholder" style="display:none"><i class="fas fa-user"></i><p>faculty2.jpg</p></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Mr. Aditya Kumar</h3>
+            <span class="faculty-subject">English / Maths </span>
+            <p class="faculty-qual"><i class="fas fa-graduation-cap"></i> B.Sc. Zoology · 2 yrs experience</p>
+          </div>
+        </div>
+
+        <!-- Faculty Card 3 -->
+
+
+        <!-- Faculty Card 4 -->
+        
+
+        <!-- Faculty Card 5 -->
+        <!-- <div class="faculty-card reveal">
+          <div class="faculty-img-wrap">
+            <img src="faculty5.jpg" alt="Faculty" class="faculty-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="img-placeholder" style="display:none"><i class="fas fa-user"></i><p>faculty5.jpg</p></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Mr. Deepak Singh</h3>
+            <span class="faculty-subject">English Language</span>
+            <p class="faculty-qual"><i class="fas fa-graduation-cap"></i> M.A. English, BHU · 8 yrs experience</p>
+          </div>
+        </div> -->
+
+        <!-- Faculty Card 6 -->
+        <!-- <div class="faculty-card reveal">
+          <div class="faculty-img-wrap">
+            <img src="faculty6.jpg" alt="Faculty" class="faculty-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="img-placeholder" style="display:none"><i class="fas fa-user"></i><p>faculty6.jpg</p></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Mrs. Kavita Mishra</h3>
+            <span class="faculty-subject">Social Studies</span>
+            <p class="faculty-qual"><i class="fas fa-graduation-cap"></i> M.A. History · 11 yrs experience</p>
+          </div>
+        </div> -->
+
+      </div><!-- /faculty-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       RESULTS / TOPPERS SECTION
+  ============================================================ -->
+  <section class="results-section section" id="results">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Hall of Fame</span>
+        <h2 class="section-title">Our Star Performers </h2>
+        <p class="section-sub">Every year our students rewrite records — and their own stories.</p>
+      </div>
+
+      <div class="toppers-grid">
+
+        <!-- Topper 1 -->
+        <div class="topper-card reveal">
+          <div class="topper-rank rank-gold">1<sup>st</sup></div>
+          <div class="topper-img-wrap">
+            <img src="topper1.jpg" alt="Topper" class="topper-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="img-placeholder" style="display:none"><i class="fas fa-user-graduate"></i><p>topper1.jpg</p></div>
+          </div>
+          <h3>Ananya Gupta</h3>
+          <div class="topper-pct">98.6%</div>
+          <p class="topper-achieve">Class 12 CBSE · District Topper<br>NEET AIR 204</p>
+          <div class="topper-stars">★★★★★</div>
+        </div>
+
+        <!-- Topper 2 -->
+        <div class="topper-card reveal">
+          <div class="topper-rank rank-silver">2<sup>nd</sup></div>
+          <div class="topper-img-wrap">
+            <img src="topper2.jpg" alt="Topper" class="topper-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="img-placeholder" style="display:none"><i class="fas fa-user-graduate"></i><p>topper2.jpg</p></div>
+          </div>
+          <h3>Rohan Mehta</h3>
+          <div class="topper-pct">97.4%</div>
+          <p class="topper-achieve">Class 12 CBSE · JEE Advanced AIR 512</p>
+          <div class="topper-stars">★★★★★</div>
+        </div>
+
+        <!-- Topper 3 -->
+        <div class="topper-card reveal">
+          <div class="topper-rank rank-bronze">3<sup>rd</sup></div>
+          <div class="topper-img-wrap">
+            <img src="topper3.jpg" alt="Topper" class="topper-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="img-placeholder" style="display:none"><i class="fas fa-user-graduate"></i><p>topper3.jpg</p></div>
+          </div>
+          <h3>Priya Sharma</h3>
+          <div class="topper-pct">96.8%</div>
+          <p class="topper-achieve">Class 10 CBSE · State Rank 7</p>
+          <div class="topper-stars">★★★★★</div>
+        </div>
+
+      </div><!-- /toppers-grid -->
+
+      <!-- Overall result banner -->
+      <div class="result-banner reveal">
+        <div class="result-stat"><span>85%</span><p>Students scored above 80% in School Exams</p></div>
+        <div class="result-stat"><span>5+</span><p>Students are Prepairing for SAINIK Entrance Exam</p></div>
+        <div class="result-stat"><span>50+</span><p>Books are available in the Coaching Library</p></div>
+        <div class="result-stat"><span>3 - 4</span><p>Courses are available</p></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       GALLERY SECTION
+  ============================================================ -->
+  <section class="gallery-section section" id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Campus &amp; Life</span>
+        <h2 class="section-title">Photo Gallery</h2>
+        <p class="section-sub">A glimpse into our vibrant learning environment and campus activities.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" data-src="gallery1.jpg">
+          <img src="glr_imgs/glr_6.jpeg" alt="Gallery" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="img-placeholder" style="display:none"><i class="fas fa-image"></i><p>gallery1.jpg</p></div>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="gallery2.jpg">
+          <img src="glr_imgs/glr_4.jpeg" alt="Gallery" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="img-placeholder" style="display:none"><i class="fas fa-image"></i><p>gallery2.jpg</p></div>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="gallery3.jpg">
+          <img src="glr_imgs/glr_5.jpeg" alt="Gallery" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="img-placeholder" style="display:none"><i class="fas fa-image"></i><p>gallery3.jpg</p></div>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="gallery4.jpg">
+          <img src="glr_imgs/glr_2.jpeg" alt="Gallery" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="img-placeholder" style="display:none"><i class="fas fa-image"></i><p>gallery4.jpg</p></div>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="gallery5.jpg">
+          <img src="glr_imgs/glr.1.jpeg" alt="Gallery" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="img-placeholder" style="display:none"><i class="fas fa-image"></i><p>gallery5.jpg</p></div>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="gallery6.jpg">
+          <img src="glr_imgs/glr_3.jpeg" alt="Gallery" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="img-placeholder" style="display:none"><i class="fas fa-image"></i><p>gallery6.jpg</p></div>
+          <div class="gallery-overlay"><i class="fas fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+      <div class="lightbox-inner">
+        <img src="" alt="Gallery" id="lightboxImg" />
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TESTIMONIALS SECTION
+  ============================================================ -->
+  <section class="testimonials-section section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">What They Say</span>
+        <h2 class="section-title">Student &amp; Parent Reviews</h2>
+        <p class="section-sub">Real stories from families who trusted GYAN SAGAR CAREER INSTITUTE with their futures.</p>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testi-card reveal">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"My daughter went from 68% to 94% in just one year. The teachers here genuinely care about each child's progress. Best decision we ever made!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MK</div>
+            <div>
+              <strong>Mrs. Meena Kaur</strong>
+              <span>Parent – Class 10</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"XYZ Institute's JEE batch is simply outstanding. The problem-solving approach they teach gave me the confidence to crack JEE Advanced. Eternal gratitude!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AR</div>
+            <div>
+              <strong>Arjun Rawat</strong>
+              <span>Student – JEE Advanced Qualifier</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"The NEET coaching here is top-class. Mock tests, revision sessions, and the personal attention from biology teacher Mrs. Verma made all the difference."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SP</div>
+            <div>
+              <strong>Shreya Pandey</strong>
+              <span>Student – NEET 2024 Qualifier</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+
+        <div class="testi-card reveal">
+          <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"We were nervous about Class 9 being a tough transition. The institute's structured approach and monthly PTMs kept us informed and involved every step."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">RG</div>
+            <div>
+              <strong>Mr. Ramesh Gupta</strong>
+              <span>Parent – Class 9</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FAQ SECTION
+  ============================================================ -->
+  <section class="faq-section section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Common Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-sub">Everything you need to know before joining GYAN SAGAR CAREER INSTITUTE.</p>
+      </div>
+
+      <div class="faq-list">
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            What is the batch size at GYAN SAGAR CAREER INSTITUTE ?
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We maintain small batch sizes of 20–25 students per batch to ensure every student receives personal attention and queries are addressed promptly during class.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Do you provide study material ?
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. All students receive comprehensive printed study material, including chapter notes, formula sheets, practice problem sets, and previous year question papers — all included in the course fee.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            How are doubt-clearing sessions handled ?
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We have dedicated doubt-clearing sessions 6 days a week. Students can approach faculty directly after class or book a slot during our open doubt hours every morning from 8–9 AM.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            What is the fee structure and payment options ?
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Fees vary by course and batch. We offer monthly, quarterly, and annual payment options. Sibling discounts and merit scholarships are also available. Please contact our counsellors for detailed fee information.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Do you conduct tests and provide performance reports ?
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, we conduct weekly chapter tests, bi-monthly full-syllabus tests, and mock boards/entrances. Detailed performance reports with rank, percentile, and improvement areas are shared with parents regularly.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            Is there a trial or demo class before admission ?
+            <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! We welcome all prospective students and parents for a free demo class every Saturday at 10 AM. No registration needed — just walk in. Experience our teaching style before making any commitment.</p>
+          </div>
+        </div>
+
+      </div><!-- /faq-list -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section class="contact-section section" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-sub">We'd love to hear from you. Reach out today and we'll respond within a few hours.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Our Address</h4>
+              <p>123, Knowledge Street, Sector 14,<br>Your City – 110001, State, India</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4>Phone / WhatsApp</h4>
+              <p><a href="tel:+917004170290">+91-7004170290</a><br>
+                 <a href="tel:+917004170290">+91-7004170290</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@xyzinstitute.com">info@xyzinstitute.com</a><br>
+                 <a href="mailto:admissions@xyzinstitute.com">admissions@xyzinstitute.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Office Hours</h4>
+              <p>Mon – Sat: 2:PM – 5:00 PM<br>Sunday: OFF</p>
+            </div>
+          </div>
+
+        </div><!-- /contact-info -->
+
+        <!-- Enquiry Form -->
+        <div class="contact-form-wrap reveal">
+          <h3>Send an Enquiry</h3>
+          <div class="enquiry-form">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="parentName">Parent / Guardian Name</label>
+                <input type="text" id="parentName" placeholder="Full name" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="studentName">Student Name</label>
+                <input type="text" id="studentName" placeholder="Student's full name" />
+              </div>
+              <div class="form-group">
+                <label for="classSelect">Class / Course</label>
+                <select id="classSelect">
+                  <option value="">Select Course</option>
+                  <option>Class 6</option>
+                  <option>Class 7</option>
+                  <option>Class 8</option>
+                  <option>Class 9</option>
+                  <option>Class 10</option>
+                  <option>Class 11 Science</option>
+                  <option>Class 12 Science</option>
+                  <option>NEET Preparation</option>
+                  <option>JEE Preparation</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Message (optional)</label>
+              <textarea id="message" rows="4" placeholder="Any specific questions or requirements..."></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-full" onclick="submitEnquiry()">
+              Submit Enquiry <i class="fas fa-paper-plane"></i>
+            </button>
+
+            <p class="form-note"><i class="fas fa-lock"></i> Your information is safe with us. We never share your details.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       GOOGLE MAPS SECTION
+       → Paste your Google Maps <iframe> embed code inside the
+         div below, replacing the placeholder.
+  ============================================================ -->
+  <section class="map-section" id="map">
+    <div class="map-header">
+      <h3><i class="fas fa-map-marker-alt"></i> Find Us on the Map</h3>
+      <p>123, Knowledge Street, Sector 14, Your City – 110001</p>
+    </div>
+
+    <!-- ======================================================
+         PASTE YOUR GOOGLE MAPS IFRAME HERE
+         Example:
+         <iframe
+           src="https://www.google.com/maps/embed?pb=!1m18!..."
+           width="100%" height="450" style="border:0;"
+           allowfullscreen="" loading="lazy">
+         </iframe>
+    ====================================================== -->
+    <div class="map-placeholder">
+      <i class="fas fa-map"></i>
+      <p><strong>Google Maps Placeholder</strong></p>
+      <p>Paste your Google Maps <code>&lt;iframe&gt;</code> embed code here in <code>index.html</code></p>
+    </div>
+
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+
+        <!-- Brand Column -->
+        <div class="footer-col footer-brand">
+          <a href="#home" class="footer-logo">
+            <i class="fas fa-graduation-cap"></i>
+            GYAN SAGAR CAREER<strong>Institute</strong>
+          </a>
+          <p>Premier coaching for Class 6–12, NAVODAYA , SAINIK , NEET &amp; JEE. Shaping futures since 2025 with quality education and personal attention.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home"><i class="fas fa-angle-right"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-angle-right"></i> About Us</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> Courses</a></li>
+            <li><a href="#faculty"><i class="fas fa-angle-right"></i> Faculty</a></li>
+            <li><a href="#results"><i class="fas fa-angle-right"></i> Results</a></li>
+            <li><a href="#gallery"><i class="fas fa-angle-right"></i> Gallery</a></li>
+            <li><a href="#contact"><i class="fas fa-angle-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Courses Links -->
+        <div class="footer-col">
+          <h4>Our Courses</h4>
+          <ul class="footer-links">
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> Class 6 – 10</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> Class 11 Science</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> Class 12 Science</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> NAVODAYA Preparation</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> SAINIK SCHOOL ENTRANCE  Preparation</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> NEET Preparation</a></li>
+            <li><a href="#courses"><i class="fas fa-angle-right"></i> JEE Preparation</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="footer-col">
+          <h4>Contact Details</h4>
+          <ul class="footer-contact-list">
+            <li><i class="fas fa-map-marker-alt"></i>Near Chhath Ghat , Mirganj (Gopalganj) , 841438</li>
+            <li><i class="fas fa-phone-alt"></i> <a href="tel:+917004170290">+91-7004170290</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="Amangenius30@gmail.com">Amangenius30@gmail.com</a></li>
+            <li><i class="fas fa-clock"></i> Mon–Sat: 8 AM – 8 PM</li>
+          </ul>
+        </div>
+
+      </div>
+    </div><!-- /footer-top -->
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container">
+       <h4>Developer's Corner : </h4>
+       Linkedin : 
+       <br>
+       Instagram :  
+       <br>
+       E-Mail :  <a href="shivamkumarst1020@gmail.com"></a>       
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================
+       FLOATING ACTION BUTTONS
+  ============================================================ -->
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/917004170290" class="fab-btn fab-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="fab-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <!-- Call Button -->
+  <a href="tel:+917004170290" class="fab-btn fab-call" aria-label="Call Us">
+    <i class="fas fa-phone-alt"></i>
+    <span class="fab-tooltip">Call Us Now</span>
+  </a>
+
+
+  <!-- ============================================================
+       SCROLL TO TOP BUTTON
+  ============================================================ -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
