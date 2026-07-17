@@ -230,7 +230,7 @@ ul {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   color: var(--white);
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
@@ -2137,7 +2137,7 @@ ul {
     display: block;
 }
 .nav-logo {
-  gap: 8px;
+  gap: 20px;
 }
 .logo-icon {
 width: 36px;
