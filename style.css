@@ -494,46 +494,49 @@ ul {
 /* ============================================================
    6. TICKER / ANNOUNCEMENT BAR
 ============================================================ */
-
 .ticker-wrap {
-  background: var(--royal);
-  color: var(--white);
   display: flex;
   align-items: center;
-  overflow: hidden;
   height: 42px;
+  background: #0b2a4a;
+  color: white;
 }
 
+/* LABEL */
 .ticker-label {
-  background: var(--gold);
-  color: var(--navy);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  background: #f5a623;
+  color: #0b2a4a;
   padding: 0 20px;
   height: 100%;
   display: flex;
   align-items: center;
-  gap: 8px;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
+/* 🔥 THIS IS MAIN HERO */
+.ticker-box {
+  overflow: hidden;
+  flex: 1;
+}
+
+/* TEXT MOVE */
 .ticker-content {
   display: flex;
-  gap: 80px;
-  animation: ticker 30s linear infinite;
+  gap: 60px;
   white-space: nowrap;
-  font-size: 0.88rem;
-  padding: 0 40px;
+  animation: scroll 15s linear infinite;
 }
 
-@keyframes ticker {
-  0%   { transform: translateX(100vw); }
-  100% { transform: translateX(-100%); }
+/* RIGHT → LEFT */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
-
-
 /* ============================================================
    7. ABOUT SECTION
 ============================================================ */
